@@ -7,10 +7,10 @@
 #!/bin/bash
 
 # Start PostgreSQL service
-service postgresql start
+#service postgresql start
 
 # Wait for PostgreSQL to start (you might adjust the sleep time as necessary)
-sleep 5
+#sleep 5
 
 # Check if the SQL setup file exists and run it
 if [ -f .devcontainer/setup-postgresql.sql ]; then
